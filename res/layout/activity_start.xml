@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/minesweeper_opening_logo"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <android.widget.Button
+        android:id="@+id/btn_instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showInstructions"
+        android:background="@drawable/btn_shape"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/instructions"/>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        >
+    <android.widget.Button
+        android:id="@+id/btn_records"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape"
+        android:onClick="showRecords"
+        android:text="@string/records" />
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/player_name"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/white"
+        android:autofillHints="@string/player_name"
+        android:inputType="text"/>
+
+    <android.widget.Button
+        android:id="@+id/btn_start"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:onClick="checkInput"
+        android:background="@drawable/btn_shape"
+        android:text="@string/start_game" />
+    </TableRow>
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

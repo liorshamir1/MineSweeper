@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">שולה המוקשים</string>
+    <string name="player_name">שם שחקן</string>
+    <string name="records_name">שם</string>
+    <string name="records_time">זמן</string>
+    <string name="records_rank">דירוג</string>
+    <string name="records_table">שיאים</string>
+    <string name="check_enter_name">הכנס את שמך</string>
+    <string name="game_name">שולה המוקשים</string>
+    <string name="start_game">התחל</string>
+    <string name="records">שיאים</string>
+    <string name="instructions">הוראות</string>
+    <string name="game_over">המשחק נגמר!</string>
+    <string name="try_again">נסה שוב</string>
+    <string name="win_game">כל הכבוד!</string>
+    <string name="text_win">הצלחת לנצח את המשחק!</string>
+    <string name="text_lose">הפסדת, לא נורא אולי בפעם הבאה..</string>
+    <string name="back_menu">חזור</string>
+    <string name="your_score">הציון שלך: </string>
+    <string name="game_instructions_title">הוראות משחק</string>
+    <string name="music_on">מוזיקה הופעלה</string>
+    <string name="music_off">מוזיקה הופסקה</string>
+    <string name="game_instructions">הלוח מתחלק ל-2 סוגי משבצות: משבצות עם מוקשים ומשבצות ללא מוקשים. כל משבצת שבה אין מוקש תכיל מספר האומר כמה מוקשים יש סביבו. אם אין מספר, תיפתח קבוצה של משבצות - כל המשבצות הריקות עד לגבול שבו יש משבצת עם מספר, כולל המשבצות עם המספר. מטרת המשחק היא לחשוף את כל המשבצות נטולות המוקשים בפרק זמן קצר ככל האפשר.</string>
+</resources>

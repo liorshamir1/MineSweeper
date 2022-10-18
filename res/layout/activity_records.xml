@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+
+<LinearLayout
+    android:id="@+id/image_layout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:src="@drawable/medal"/>
+
+    <TextView
+        android:id="@+id/textView_title_records"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/records_table"
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+        android:textSize="40sp" />
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:src="@drawable/medal"/>
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/records_linear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_below="@+id/image_layout1"
+    android:weightSum="3">
+
+    <TextView
+        android:id="@+id/rank_lbl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/records_rank"
+        android:textColor="@color/black"
+        android:gravity = "center"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/time_lbl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/records_time"
+        android:textColor="@color/black"
+        android:gravity = "center"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/name_lbl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/records_name"
+        android:textColor="@color/black"
+        android:gravity = "center"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+</LinearLayout>
+
+<ListView
+    android:id="@+id/listView_records"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_below="@+id/records_linear"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="15dp" >
+
+</ListView>
+
+<!--<ProgressBar-->
+<!--    android:id="@+id/progressBar_result"-->
+<!--    style="@style/Widget.AppCompat.ProgressBar.Horizontal"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="100dp"-->
+<!--    android:layout_marginTop="180dp"-->
+<!--    android:progress="10"-->
+<!--    android:progressDrawable="@drawable/circle" />-->
+
+</RelativeLayout>

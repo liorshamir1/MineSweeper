@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="flag" translatable="false">🚩</string>
+    <string name="bomb" translatable="false">💣</string>
+    <string name="default_count" translatable="false">000</string>
+    <string name="default_count_flag" translatable="false">00</string>
+    <string name="game_name">Minesweeper</string>
+    <string name="check_enter_name">Insert your name</string>
+    <string name="player_name">Player name</string>
+    <string name="records_table">Records</string>
+    <string name="records_rank">Rank</string>
+    <string name="records_time">Time</string>
+    <string name="records_name">Name</string>
+    <string name="start_game">Play</string>
+    <string name="records">Records</string>
+    <string name="instructions">Instructions</string>
+    <string name="game_over">GAME OVER!</string>
+    <string name="try_again">Try Again</string>
+    <string name="win_game">Congratulations!</string>
+    <string name="text_win">You succeeded to win the game!</string>
+    <string name="text_lose">You lost, maybe next time..</string>
+    <string name="back_menu">Back menu</string>
+    <string name="your_score">Your score: </string>
+    <string name="default_score_text" translatable="false">0</string>
+    <string name="exit_text_instructions" translatable="false">X</string>
+    <string name="game_instructions_title">Game Instructions</string>
+    <string name="music_on">Music on</string>
+    <string name="music_off">Music off</string>
+    <string name="game_instructions">The board is divided into 2 types of slots: slots with mines and slots without mines. Each square where there is no mine will have a number saying how many mines are around it. If there is no number, a set of squares will be opened - all the empty squares up to the border where there is a square with a number, including the squares with the number. The aim of the game is to reveal all the mine-free slots in as short a time as possible.</string>
+</resources>
